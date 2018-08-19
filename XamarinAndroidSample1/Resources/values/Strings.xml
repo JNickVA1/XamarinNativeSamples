@@ -1,4 +1,15 @@
 <resources>
-    <string name="app_name">XamarinAndroidSample1</string>
+    <string name="app_name">Xamarin Android Sample1</string>
     <string name="action_settings">Settings</string>
+	<string name="app_info">This sample demonstrates calling a RESTful web service and MSAL authentication.
+	  
+	  Written by Jim Nicholson 2018</string>
+  <string name="find_sqrt">1. Find the square root of a number.
+
+	  Enter a positive integer and press GO</string>
+  <string name="test_login">
+	2. Test the Microsoft Authentication Library (MSAL)
+	(See: https://docs.microsoft.com/en-us/azure/active-directory/develop/reference-v2-libraries)
+  </string>
+  <string name="test_login_instructions">Enter the username and password shown to test authentication.</string>
 </resources>
