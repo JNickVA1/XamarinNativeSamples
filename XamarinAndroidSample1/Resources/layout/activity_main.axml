@@ -53,6 +53,27 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:layout_below="@id/answer"
+		android:id="@+id/test2"
+		android:layout_marginBottom="5dp"
 		android:autoLink="web" 
 		/>
+	<TextView
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="Username:"
+		android:textAlignment="viewEnd"
+		android:layout_width="100dp"
+		android:layout_height="50dp"
+		android:layout_below="@id/test2"
+		android:id="@+id/label_username"
+		android:layout_marginTop="10dp" 
+		/>
+	<EditText
+		android:id="@+id/username"
+		android:layout_width="200dp"
+		android:layout_height="50dp"
+		android:layout_below="@id/test2"
+		android:layout_toRightOf="@id/label_username"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textAlignment="textStart"
+		android:text="TestUser1" />
 </RelativeLayout>
