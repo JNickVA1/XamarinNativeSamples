@@ -8,8 +8,6 @@
 
 	  Enter a positive integer and press GO</string>
   <string name="test_login">
-	2. Test the Microsoft Authentication Library (MSAL)
-	(See: https://docs.microsoft.com/en-us/azure/active-directory/develop/reference-v2-libraries)
-  </string>
+	2. Test the Microsoft Authentication Library (MSAL)</string>
   <string name="test_login_instructions">Enter the username and password shown to test authentication.</string>
 </resources>

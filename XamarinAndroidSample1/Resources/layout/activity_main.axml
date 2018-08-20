@@ -15,7 +15,8 @@
 		android:textAlignment="center"
 		android:text="@string/app_info"
 		android:background="#ffe1edf1"
-		android:layout_marginBottom="5dp" />
+		android:layout_marginBottom="5dp" 
+	/>
 	<TextView
 		android:text="@string/find_sqrt"
 		android:textAppearance="?android:attr/textAppearanceMedium"
@@ -24,7 +25,8 @@
 		android:layout_height="wrap_content"
 		android:layout_below="@id/textView1"
 		android:id="@+id/textView2"
-		android:layout_marginBottom="5dp" />
+		android:layout_marginBottom="5dp" 
+	/>
 	<EditText
 		android:layout_width="150dp"
 		android:layout_height="wrap_content"
@@ -32,20 +34,23 @@
 		android:id="@+id/editText1"
 		android:inputType="none|number"
 		android:layout_marginLeft="50dp"
-		android:width="150dp" />
+		android:width="150dp" 
+	/>
 	<Button
 		android:text="Go"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_below="@id/textView2"
 		android:id="@+id/button1"
-		android:layout_toRightOf="@id/editText1" />
+		android:layout_toRightOf="@id/editText1" 
+	/>
 	<EditText
 		android:layout_width="150dp"
 		android:layout_height="wrap_content"
 		android:layout_below="@id/editText1"
 		android:id="@+id/answer"
-		android:layout_marginLeft="50dp" />
+		android:layout_marginLeft="50dp" 
+	/>
 	<TextView
 		android:textAppearance="?android:attr/textAppearanceMedium"
 		android:text="@string/test_login"
@@ -56,7 +61,7 @@
 		android:id="@+id/test2"
 		android:layout_marginBottom="5dp"
 		android:autoLink="web" 
-		/>
+	/>
 	<TextView
 		android:textAppearance="?android:attr/textAppearanceMedium"
 		android:text="Username:"
@@ -66,7 +71,7 @@
 		android:layout_below="@id/test2"
 		android:id="@+id/label_username"
 		android:layout_marginTop="10dp" 
-		/>
+	/>
 	<EditText
 		android:id="@+id/username"
 		android:layout_width="200dp"
@@ -75,5 +80,34 @@
 		android:layout_toRightOf="@id/label_username"
 		android:textAppearance="?android:attr/textAppearanceMedium"
 		android:textAlignment="textStart"
-		android:text="TestUser1" />
+		android:text="TestUser1" 
+	/>
+	<TextView
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="Password:"
+		android:textAlignment="viewEnd"
+		android:layout_width="100dp"
+		android:layout_height="50dp"
+		android:layout_below="@id/username"
+		android:id="@+id/label_password"
+		android:layout_marginTop="10dp" 
+	/>
+	<EditText
+		android:id="@+id/password"
+		android:layout_width="200dp"
+		android:layout_height="50dp"
+		android:layout_below="@id/username"
+		android:layout_toRightOf="@id/label_password"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textAlignment="textStart"
+		android:text=""
+		android:inputType="textPassword" 
+	/>
+	<Button
+		android:text="Login"
+		android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/password"
+		android:layout_centerHorizontal="true"
+		android:id="@+id/button2" />
 </RelativeLayout>
